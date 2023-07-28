@@ -23,12 +23,16 @@ const Footer = () => {
             <div className="logo">
               <img src="./images/logo.png" alt="logo-light" />
             </div>
-            <div className="content  mtop">
+            <div className="content padding mtop">
               <h2>Do You Need Help With Anything?</h2>
               <p>
                 Receive updates, hot deals, tutorials, discounts send straight
                 in your inbox every month.
               </p>
+              <div className="flex input">
+                <input type="text" name="email" id="maile" />
+                <button>Subscribe</button>
+              </div>
             </div>
           </div>
 
